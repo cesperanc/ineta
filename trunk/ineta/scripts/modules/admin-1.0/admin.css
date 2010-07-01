@@ -1,0 +1,237 @@
+<?php header("Content-type: text/css; charset: utf-8"); ?>
+
+/* CSS da área privada */
+
+/* Layout */ 
+
+body {
+	min-width: 785px;
+	background-color: #F7F6F1;
+	padding: 0px;
+	margin: 0px;
+}
+
+a{
+	text-decoration:none;
+	font-weight:normal;
+}
+#adWrap {
+	height: auto;
+	min-height: 100%;
+	width: 100%;
+}
+
+#adContent {
+	height: 100%;
+	padding-bottom: 50px;
+}
+
+#adHead {
+	height: 55px;
+	background-color: #1D507D;
+}
+
+#adBody {
+	clear: both;
+	margin-left: 175px;
+}
+
+#adMenu {
+	clear: left;
+	float: left;
+	list-style: none outside none;
+	margin: 15px 5px 15px -160px;
+	padding: 0;
+	position: relative;
+	width: 145px;
+}
+
+#adUserInfo{
+	float: right;
+	font-size: 12px;
+	height: 55px;
+	line-height: 55px;
+	padding-right: 15px;
+}
+
+ul#adMenu, ul#adMenu ul {
+	list-style: none outside none;
+}
+
+ul#adMenu {
+	border: 1px solid #DFDFDF;
+}
+
+ul#adMenu li {
+	min-height: 26px;
+	cursor: pointer;
+	border-top: 1px solid #DFDFDF;
+}
+ul#adMenu li:first-child {
+	border-top: none;
+}
+
+ul#adMenu li a {
+	line-height: 18px;
+	min-width: 10em;
+	padding: 5px;
+	
+	color: #1C6280;
+	display: block;
+	text-decoration: none;
+	background-color: #EAF3FA;
+}
+
+ul#adMenu li + li{
+	border-bottom: none;
+}
+
+ul#adMenu li a:hover,
+ul#adMenu li a:focus {
+	color: #D54E21;	
+}
+ul#adMenu li.currentPage a {
+	background: url("./images/admin/menu.gif") repeat-x scroll left top #3C6B95;
+	border-color: #1D507D;
+	color: #FFFFFF;
+}
+
+#adBodyContent {
+	float: left;
+	width: 100%;
+}
+
+/* classes genéricas */
+.clear{
+	clear: both;
+}
+.wrap {
+	margin: 0 15px 0 5px;
+}
+
+.wrap .header{
+	padding-bottom: 20px;
+}
+
+div.content {
+	background-color: #FFFFFF;
+	border: 1px solid #DFDFDF;
+	clear: both;
+	margin: 0;
+	padding: 15px;
+}
+
+/* Formulários */
+input[readonly]{
+	border:none;
+}
+
+/* Estilos especificos */
+body {
+	font: 12px Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+#adHead,
+#adHead a,
+#adHead a:visited,
+#adHead a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#adHead a + small{
+	visibility: hidden;
+	font-size: 9px;
+	display: block;
+}
+#adHead a:focus + small,
+#adHead a:hover + small {
+	visibility: visible;
+}
+
+#adHead h1 {
+	float: left;
+	font: 22px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 10px 8px 5px;
+}
+
+.floatleft{
+	float: left;
+}
+
+.floatright{
+	float: right;
+}
+
+.clearall{
+	clear:right;
+}
+
+#adUserInfo{
+	color: #B6D1E4;
+}
+
+/* CSS layout tabelas */
+table.insideAdminTable {
+	table-layout: fixed;
+	background-color: #FFFFFF;
+	border: 1px solid #DFDFDF;
+	border-spacing: 0;
+	clear: both;
+	margin: 0;
+	width: 100%;
+}
+
+table.insideAdminTable thead tr th,
+table.insideAdminTable tfoot tr th {
+	background:url("./images/admin/blue-grad.png") repeat-x scroll left top #D5E6F2;
+	color: #333333;
+}
+
+table.insideAdminTable td, 
+table.insideAdminTable th {
+	overflow: hidden;
+	border-bottom: 1px solid #DFDFDF;
+	font-size:11px;
+}
+
+table.insideAdminTable th {
+	line-height: 1.3em;
+	padding: 7px 7px 8px;
+	text-align: left;	
+}
+
+table.insideAdminTable td {
+	padding: 3px 7px;
+	vertical-align: top;
+	color:#AAAAAA;
+}
+
+table.insideAdminTable a {
+	display: block;
+	text-decoration: none;
+	font-size: 12px !important;
+	font-weight: bold;
+	color: #1C6280;
+}
+
+table.insideAdminTable a:focus {
+	color: #D54E21;
+}
+
+.deleted{
+	text-decoration:line-through;
+	background-color:#EFEFEF;
+}
+/*TESTE*/
+.footer-logos {text-align:center;}
+.footer-logos img {margin-left:20px;margin-right:20px;vertical-align:middle;}
+.footer-logos img.first {}
+.footer-logos img.last {}
+.footer-logos ul {}
+.footer-logos ul li {display: inline; list-style:none;}
+
+label.error{
+	color:red;
+}

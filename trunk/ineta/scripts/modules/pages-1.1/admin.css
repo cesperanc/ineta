@@ -1,0 +1,91 @@
+<?php header("Content-type: text/css; charset: utf-8"); ?>
+
+/* CSS do módulo de administração das páginas */
+
+ul#pagesList,
+ul#usersList {
+	padding: 5px;
+}
+
+ul#pagesList, 
+ul#usersList ul {
+	list-style: none outside none;
+}
+
+ul#pagesList ul, 
+ul#usersList ul {
+	padding-left: 15px;
+}
+
+div h2,
+div h2 a {
+	color: #093E56;
+	font-weight: bold;
+}
+
+div h2 {
+	padding: 14px 15px 3px 0;
+}
+div h2 a {
+	text-decoration: underline;
+}
+
+table.pagesList, 
+table.usersList {
+	table-layout: fixed;
+	background-color: #FFFFFF;
+	border: 1px solid #DFDFDF;
+	border-spacing: 0;
+	clear: both;
+	margin: 0;
+	width: 100%;
+}
+
+table.pagesList thead tr th,
+table.pagesList tfoot tr th,
+table.usersList thead tr th,
+table.usersList tfoot tr th {
+	background:url("./images/admin/blue-grad.png") repeat-x scroll left top #D5E6F2;
+	color: #333333;
+}
+
+table.pagesList td, 
+table.pagesList th,
+table.usersList td, 
+table.usersList th {
+	overflow: hidden;
+	border-bottom: 1px solid #DFDFDF;
+	font-size:11px;
+}
+
+table.pagesList th,
+table.usersList th {
+	line-height: 1.3em;
+	padding: 7px 7px 8px;
+	text-align: left;	
+}
+
+table.pagesList td,
+table.usersList td {
+	padding: 3px 7px;
+	vertical-align: top;
+	color:#AAAAAA;
+}
+
+table.pagesList a,
+table.usersList a {
+	display: block;
+	text-decoration: none;
+	font-size: 12px !important;
+	font-weight: bold;
+	color: #1C6280;
+}
+
+table.pagesList a:hover,
+table.pagesList a:focus {
+	color: #D54E21;
+}
+
+form label.error{
+	margin: 0 5px;
+}

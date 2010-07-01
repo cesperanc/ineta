@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+
+.news {
+	background-image: url("../img/news.png");
+	background-position: left center;
+	background-repeat: no-repeat;
+	width: 100%;
+	min-width: 100px;
+	height: 15px;
+	margin: 5px 0;
+	border-top: 1px dotted #d1d0d0;
+}
+
+
+body.popup{
+	min-width: 400px;
+}
+
+body.popup div.content{
+	min-height: 55px;
+}
+
+div.table{
+	display: table;
+}
+
+div.table div.row{
+	display: table-row;
+}
+
+div.table div.row div.cell{
+	display: table-cell;
+	padding: 2px;
+}
+
+div.title{
+	text-align: right;
+}

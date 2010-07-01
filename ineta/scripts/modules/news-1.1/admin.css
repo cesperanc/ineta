@@ -1,0 +1,80 @@
+<?php header("Content-type: text/css; charset: utf-8"); ?>
+
+/* CSS do módulo de administração das páginas */
+
+ul#newsList {
+	padding: 5px;
+}
+
+ul#newsList {
+	list-style: none outside none;
+}
+
+ul#newsList ul {
+	padding-left: 15px;
+}
+
+div h2,
+div h2 a {
+	color: #093E56;
+	font-weight: bold;
+}
+
+div h2 {
+	padding: 14px 15px 3px 0;
+}
+div h2 a {
+	text-decoration: underline;
+}
+
+table.newsList {
+	table-layout: fixed;
+	background-color: #FFFFFF;
+	border: 1px solid #DFDFDF;
+	border-spacing: 0;
+	clear: both;
+	margin: 0;
+	width: 100%;
+}
+
+table.newsList thead tr th,
+table.newsList tfoot tr th {
+	background:url("./images/admin/blue-grad.png") repeat-x scroll left top #D5E6F2;
+	color: #333333;
+}
+
+table.newsList td, 
+table.newsList th {
+	overflow: hidden;
+	border-bottom: 1px solid #DFDFDF;
+	font-size:11px;
+}
+
+table.newsList th {
+	line-height: 1.3em;
+	padding: 7px 7px 8px;
+	text-align: left;	
+}
+
+table.newsList td {
+	padding: 3px 7px;
+	vertical-align: top;
+	color:#AAAAAA;
+}
+
+table.newsList a {
+	display: block;
+	text-decoration: none;
+	font-size: 12px !important;
+	font-weight: bold;
+	color: #1C6280;
+}
+
+table.newsList a:hover,
+table.newsList a:focus {
+	color: #D54E21;
+}
+
+form label.error{
+	margin: 0 5px;
+}

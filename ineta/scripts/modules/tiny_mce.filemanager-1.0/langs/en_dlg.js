@@ -1,0 +1,26 @@
+tinyMCE.addI18n('en.FileManagerDialog',{
+	title: 'File Manager',
+	gallery_tab: 'Gallery',
+	upload_tab: 'Upload',
+	remove_tab: 'Remove',
+	gallery_hint: 'Click on the image to insert:',
+	upload_hint: 'Select a file to send to the gallery:',
+	remove_hint: 'Click on the image to delete:',
+	gallery_insert_image_title: 'Click to insert the image',
+	delete_image_title: 'Click to delete the image',
+	confirm_image_delete: 'Are you sure that you want to delete the image',
+	choose_file_to_upload: 'Choose the file to upload',
+	send_file: 'Send file',
+	
+	files_tab : 'Files',
+	directory_files : 'Files in the directory',
+	gallery_insert_file_title: 'Click to insert the file',
+	gallery_insert_file_alt : 'Insert file',
+	confirm_file_delete : 'Are you sure that you want to delete the file',
+	gallery_delete_file_title : 'Click to delete the file',
+	gallery_delete_file_alt : 'Delete file',
+	gallery_preview_file_title : 'Click to open the file',
+	gallery_file_preview_alt : 'Preview file', 
+	gallery_browse_directory_title : 'Click to browse the directory',
+	gallery_browse_directory_alt : 'Browse directory'
+});

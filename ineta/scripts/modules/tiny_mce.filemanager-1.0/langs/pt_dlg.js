@@ -1,0 +1,26 @@
+tinyMCE.addI18n('pt.FileManagerDialog',{
+	title: 'Gestor de ficheiros',
+	gallery_tab: 'Galeria',
+	upload_tab: 'Enviar',
+	remove_tab: 'Remover',
+	gallery_hint: 'Clique na imagem para inserir',
+	upload_hint: 'Seleccione o ficheiro a enviar para a galeria',
+	remove_hint: 'Clique na imagem a eliminar',
+	gallery_insert_image_title: 'Clique para inserir a imagem',
+	delete_image_title: 'Clique para eliminar a imagem',
+	confirm_image_delete: 'Tem a certeza de que pretende eliminar a imagem',
+	choose_file_to_upload: 'Escolha o ficheiro a enviar',
+	send_file: 'Enviar ficheiro',
+	
+	files_tab : 'Ficheiros',
+	directory_files : 'Ficheiros no directório',
+	gallery_insert_file_title: 'Clique para seleccionar este ficheiro',
+	gallery_insert_file_alt : 'Seleccionar ficheiro',
+	confirm_file_delete : 'Tem a certeza de que pretende eliminar o ficheiro',
+	gallery_delete_file_title : 'Clique para eliminar o ficheiro',
+	gallery_delete_file_alt : 'Eliminar ficheiro',
+	gallery_preview_file_title : 'Clique para abrir o ficheiro',
+	gallery_file_preview_alt : 'Pré-visualizar ficheiro', 
+	gallery_browse_directory_title : 'Clique para explorar o directório',
+	gallery_browse_directory_alt : 'Explorar directório'
+});

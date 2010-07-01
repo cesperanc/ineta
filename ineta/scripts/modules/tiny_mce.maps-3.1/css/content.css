@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+
+body{
+	min-width: 400px;
+}
+
+.GoogleMaps {
+	background-image: url("../img/GoogleMaps.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	border: 1px dotted #00FF00;
+}
+
+.panel_wrapper div.current{
+	height: auto;
+}
+
+div.content {
+	border: none;
+}
+
+fieldset {
+	border: 1px dotted #DDDDDD;
+}
+
+.panel_wrapper{
+	min-height: 439px;
+}
+
+
+.dtable td{
+	border-left: 1px dotted #CCCCCC;
+	border-top: 1px dotted #CCCCCC;
+}
+
+.dtable td:first-child{
+	border-left: none;
+	border-top: none;
+}
+
+.minimalSizedLabel{
+	text-align:right;
+}
+.minimalSizedWithPadding{
+	padding-left: 3px;
+	padding-right: 3px;
+	text-align: center;
+}
+.minimalSizedLabel, .minimalSizedWithPadding, .minimalSized{
+	width:1px;
+	white-space:nowrap;
+}

@@ -1,0 +1,12 @@
+@CHARSET "UTF-8";
+
+.subscriptions {
+	background-image: url("../img/subscriptions.png");
+	background-position: left center;
+	background-repeat: no-repeat;
+	width: 100%;
+	min-width: 100px;
+	height: 15px;
+	margin: 5px 0;
+	border-top: 1px dotted #d1d0d0;
+}

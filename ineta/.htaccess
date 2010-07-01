@@ -1,0 +1,9 @@
+DirectoryIndex index.php
+
+ErrorDocument 503 "<!DOCTYPE HTML PUBLIC '-//IETF//DTD HTML 2.0//EN'><html lang='pt'><head><meta http-equiv='Content-Language' content='pt,en' /><title>Servi&ccedil;o temporariamente indispon&iacute;vel (503)</title></head><body><h1 lang='pt'>Servi&ccedil;o temporariamente indispon&iacute;vel</h1><p>Lamentamos informar que o servidor n&atilde;o pode responder ao seu pedido. Por favor tente novamente mais tarde.</p></body></html>"
+
+ErrorDocument 404 "<!DOCTYPE HTML PUBLIC '-//IETF//DTD HTML 2.0//EN'><html lang='pt'><head><meta http-equiv='Content-Language' content='pt,en' /><title>N&atilde;o encontrado</title></head><body><h1 lang='pt'>N&atilde;o encontrado</h1><p>O documento que especificou n&atilde;o foi encontrado!</p></body></html>"
+
+ErrorDocument 403 "<!DOCTYPE HTML PUBLIC '-//IETF//DTD HTML 2.0//EN'><html lang='pt'><head><meta http-equiv='Content-Language' content='pt,en' /><title>N&atilde;o permitido</title></head><body><h1 lang='pt'>N&atilde;o permitido</h1><p>A opera&ccedil;&atilde;o que solicitou n&atilde;o &eacute; permitida!</p></body></html>"
+
+ErrorDocument 401 "<!DOCTYPE HTML PUBLIC '-//IETF//DTD HTML 2.0//EN'><html lang='pt'><head><meta http-equiv='Content-Language' content='pt,en' /><title>Acesso negado</title></head><body><h1 lang='pt'>Acesso negado!</h1><p>As credenciais fornecidas s&atilde;o inv&aacute;lidas. Por favor tente novamente ou entre em contacto com o administrador do sistema.</p></body></html>"

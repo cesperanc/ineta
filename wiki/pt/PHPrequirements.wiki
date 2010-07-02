@@ -1,0 +1,16 @@
+#summary Requisitos PHP para este projecto
+#labels Phase-Requirements
+
+=Requisitos PHP=
+  * *PHP Core* 5.3.2
+  * date
+  * fileinfo 1.0.5
+  * gd 2.0
+  * hash, com o motor de hash sha256
+  * json 1.2.1
+  * simplexml
+  * xml e libxml 2.7.6
+  * mysql 5.1.41
+  * pcre 7.8
+  * session
+  * SPL

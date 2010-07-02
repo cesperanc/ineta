@@ -1,0 +1,47 @@
+#summary Screenshots
+
+= Screenshots =
+
+== Área pública ==
+<img src="http://ineta.googlecode.com/svn/wiki/images/public_screen.jpg" alt="Public area screen" />
+
+
+
+== Integração do fancybox ==
+<img src="http://ineta.googlecode.com/svn/wiki/images/public_screen.jpg" alt="JQuery fancybox integration screen" />
+
+
+
+== Formulário de autenticação ==
+<img src="http://ineta.googlecode.com/svn/wiki/images/fancybox integration.png" alt="Login form screen" />
+
+
+
+== Área de administração ==
+<img src="http://ineta.googlecode.com/svn/wiki/images/administration_screen.jpg" alt="Administration area screen" />
+
+
+
+== Gestor dos Mapas Google ==
+<img src="http://ineta.googlecode.com/svn/wiki/images/maps_manager.png" alt="Google maps manager screen" />
+
+
+
+== Gestor dos álbuns picasa ==
+<img src="http://ineta.googlecode.com/svn/wiki/images/picasa_manager.png" alt="Picasa manager screen" />
+
+
+
+== Gestor de ficheiro para o TinyMCE ==
+<img src="http://ineta.googlecode.com/svn/wiki/images/file_manager_files.png" alt="TinyMCE File Manager screen" />
+
+
+
+== Gestor de ficheiros para o TinyMCE no contexto de imagens ==
+<img src="http://ineta.googlecode.com/svn/wiki/images/file_manager_images.png" alt="TinyMCE Image Manager screen" />
+
+
+
+== Gestor de notícias ==
+<img src="http://ineta.googlecode.com/svn/wiki/images/news_manager.png" alt="News Manager screen" />
+

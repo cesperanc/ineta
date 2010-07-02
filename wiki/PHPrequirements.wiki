@@ -9,7 +9,7 @@
   * hash, with sha256 hash engine
   * json 1.2.1
   * simplexml
-  * xml e libxml 2.7.6
+  * xml and libxml 2.7.6
   * mysql 5.1.41
   * pcre 7.8
   * session

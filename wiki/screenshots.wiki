@@ -2,7 +2,6 @@
 #labels Phase-Design
 
 = Screenshots =
-<wiki:comment>
 == Public Area ==
 <img src="http://ineta.googlecode.com/svn/wiki/images/public_screen.jpg" alt="Public area screen" />
 
@@ -29,5 +28,3 @@
 
 == News Manager ==
 <img src="http://ineta.googlecode.com/svn/wiki/images/news_manager.png" alt="News Manager screen" />
-
-</wiki:comment>

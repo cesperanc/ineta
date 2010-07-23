@@ -742,7 +742,8 @@
 	     * @return String with the result (empty on error)
 	     */
 	    public static function getPathFromRoot($file, $remove=SCRIPTSDIR){
-	    	return (empty($file) or !is_string($file))?'':trim(str_replace(dirname(realpath($_SERVER['SCRIPT_FILENAME'])).'/'.trim($remove,'./'), '', dirname(realpath($file))), '/').'/';
+	    	//return (empty($file) or !is_string($file))?'':trim(str_replace(dirname(realpath($_SERVER['SCRIPT_FILENAME'])).'/'.trim($remove,'./'), '', dirname(realpath($file))), '/').'/';
+		return (empty($file) or !is_string($file))?'':str_replace("\\", "/", trim(str_replace(realpath($remove), '', dirname(realpath($file))), '/').'/');
 	    }
 
 	}

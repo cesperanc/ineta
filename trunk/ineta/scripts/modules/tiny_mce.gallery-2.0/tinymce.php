@@ -15,7 +15,7 @@ if(false && adminEnabled()):
 		
 		// Define o caminho para a extensão
 		getKernelInstance()->actionAddFunction("tinymceExtraPlugins", function($tinymceExtraConfigs){
-			$tinymceExtraConfigs[]=array('name'=>'ImgManager', 'url'=>getBaseUrl().SCRIPTSDIR.'/'.getKernelInstance()->getPathFromRoot(__FILE__).'editor_plugin.js');
+			$tinymceExtraConfigs[]=array('name'=>'ImgManager', 'url'=>getBaseUrl().SCRIPTSDIR.getKernelInstance()->getPathFromRoot(__FILE__).'editor_plugin.js');
 			return $tinymceExtraConfigs;
 		},20,1);
 		
@@ -102,7 +102,7 @@ if(false && adminEnabled()):
 								<?php getKernelInstance()->actionExecute("_head"); ?>
 								<script type="text/javascript" src="<?php echo(TINYMCE_BASE_DIR); ?>tiny_mce_popup.js"></script>
 								<script type="text/javascript" src="<?php echo(TINYMCE_BASE_DIR); ?>utils/mctabs.js"></script>
-								<script type="text/javascript" src="<?php echo(getBaseUrl().SCRIPTSDIR.'/'.getKernelInstance()->getPathFromRoot(__FILE__)); ?>js/dialog.js"></script>
+								<script type="text/javascript" src="<?php echo(getBaseUrl().SCRIPTSDIR.getKernelInstance()->getPathFromRoot(__FILE__)); ?>js/dialog.js"></script>
 								<script type="text/javascript">
 									/* <!-- */
 										<?php 
@@ -112,7 +112,7 @@ if(false && adminEnabled()):
 										?>
 									/* --> */
 								</script>
-								<link rel="stylesheet" type="text/css" href="<?php echo(getBaseUrl().SCRIPTSDIR.'/'.getKernelInstance()->getPathFromRoot(__FILE__)); ?>css/styles.css" media="all" />
+								<link rel="stylesheet" type="text/css" href="<?php echo(getBaseUrl().SCRIPTSDIR.getKernelInstance()->getPathFromRoot(__FILE__)); ?>css/styles.css" media="all" />
 							</head>
 							<body>
 								<div class="tabs">

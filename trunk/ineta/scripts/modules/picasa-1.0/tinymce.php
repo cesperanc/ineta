@@ -11,7 +11,7 @@ if(adminEnabled()):
 		
 		// Define o caminho para a extensão
 		$kernel->actionAddFunction("tinymceExtraPlugins", function($tinymceExtraConfigs){
-			$tinymceExtraConfigs[]=array('name'=>'picasa', 'url'=>getBaseUrl().SCRIPTSDIR.'/'.getKernelInstance()->getPathFromRoot(__FILE__).'editor_plugin.js');
+			$tinymceExtraConfigs[]=array('name'=>'picasa', 'url'=>getBaseUrl().SCRIPTSDIR.getKernelInstance()->getPathFromRoot(__FILE__).'editor_plugin.js');
 			return $tinymceExtraConfigs;
 		},20,1);
 		
@@ -64,8 +64,8 @@ if(adminEnabled()):
 							<title>{#PicasaDialog.title}</title>
 							<?php getKernelInstance()->actionExecute("_head"); ?>
 							<script type="text/javascript" src="<?php echo(TINYMCE_BASE_DIR); ?>tiny_mce_popup.js"></script>
-							<script type="text/javascript" src="<?php echo(getBaseUrl().SCRIPTSDIR.'/'.getKernelInstance()->getPathFromRoot(__FILE__)); ?>js/dialog.js"></script>
-							<link rel="stylesheet" type="text/css" href="<?php echo(getBaseUrl().SCRIPTSDIR.'/'.getKernelInstance()->getPathFromRoot(__FILE__)); ?>css/content.css" media="all" />
+							<script type="text/javascript" src="<?php echo(getBaseUrl().SCRIPTSDIR.getKernelInstance()->getPathFromRoot(__FILE__)); ?>js/dialog.js"></script>
+							<link rel="stylesheet" type="text/css" href="<?php echo(getBaseUrl().SCRIPTSDIR.getKernelInstance()->getPathFromRoot(__FILE__)); ?>css/content.css" media="all" />
 						</head>
 						<body class="popup">
 							<div>

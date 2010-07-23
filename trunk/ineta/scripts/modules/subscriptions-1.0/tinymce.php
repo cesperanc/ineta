@@ -12,7 +12,7 @@ if(adminEnabled()):
 		
 		// Define o caminho para a extensão
 		$kernel->actionAddFunction("tinymceExtraPlugins", function($tinymceExtraConfigs){
-			$tinymceExtraConfigs[]=array('name'=>'subscriptions', 'url'=>getBaseUrl().SCRIPTSDIR.'/'.getKernelInstance()->getPathFromRoot(__FILE__).'editor_plugin.js');
+			$tinymceExtraConfigs[]=array('name'=>'subscriptions', 'url'=>getBaseUrl().SCRIPTSDIR.getKernelInstance()->getPathFromRoot(__FILE__).'editor_plugin.js');
 			return $tinymceExtraConfigs;
 		},20,1);
 		

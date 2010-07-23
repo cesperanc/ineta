@@ -16,7 +16,7 @@ getKernelInstance()->actionAddFunction("_init", function(){
 });
 
 getKernelInstance()->actionAddFunction("_head", function(){
-	$baseDir = getBaseUrl().SCRIPTSDIR.'/'.getKernelInstance()->getPathFromRoot(__FILE__);
+	$baseDir = getBaseUrl().SCRIPTSDIR.getKernelInstance()->getPathFromRoot(__FILE__);
 	?>
 		<script type="text/javascript" src="<?php echo($baseDir); ?>fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
 		<script type="text/javascript" src="<?php echo($baseDir); ?>fancybox/jquery.fancybox-1.3.1.js"></script>

@@ -10,7 +10,7 @@ if(adminEnabled()):
 	define('TINYMCE_BASE_DIR', getBaseUrl().SCRIPTSDIR.getKernelInstance()->getPathFromRoot(__FILE__));
 	
 	getKernelInstance()->actionAddFunction("requestTinyMCE", function(){
-		// Para adicionar o cÃ³digo necessÃ¡rio no head da pÃ¡gina
+		// Para adicionar o c¨®digo necess¨¢rio no head da p¨¢gina
 		getKernelInstance()->actionAddFunction("_head", function(){
 			$tinymcePlugins = array('pagebreak',
 									'style',
@@ -135,7 +135,7 @@ if(adminEnabled()):
 			$tinymceExtraConfigs = array();
 			
 			?>
-				<script type="text/javascript" src="<?php echo(getBaseUrl().SCRIPTSDIR.'/'.getKernelInstance()->getPathFromRoot(__FILE__)); ?>tiny_mce.js"></script>
+				<script type="text/javascript" src="<?php echo(getBaseUrl().SCRIPTSDIR.getKernelInstance()->getPathFromRoot(__FILE__)); ?>tiny_mce.js"></script>
 				<script type="text/javascript">
 					tinyMCE.init({
 						base : "<?php echo(getBaseUrl().getKernelInstance()->getPathFromRoot(__FILE__)); ?>",

@@ -15,7 +15,7 @@ if(adminEnabled()):
 		
 		// Define o caminho para a extensão
 		getKernelInstance()->actionAddFunction("tinymceExtraPlugins", function($tinymceExtraConfigs){
-			$tinymceExtraConfigs[]=array('name'=>'GoogleMaps', 'url'=>getBaseUrl().SCRIPTSDIR.'/'.getKernelInstance()->getPathFromRoot(__FILE__).'editor_plugin.js');
+			$tinymceExtraConfigs[]=array('name'=>'GoogleMaps', 'url'=>getBaseUrl().SCRIPTSDIR.getKernelInstance()->getPathFromRoot(__FILE__).'editor_plugin.js');
 			return $tinymceExtraConfigs;
 		},20,1);
 		
@@ -49,10 +49,10 @@ if(adminEnabled()):
 							<?php getKernelInstance()->actionExecute("_head"); ?>
 							<script type="text/javascript" src="<?php echo(TINYMCE_BASE_DIR); ?>tiny_mce_popup.js"></script>
 							<script type="text/javascript" src="<?php echo(TINYMCE_BASE_DIR); ?>utils/mctabs.js"></script>
-							<script type="text/javascript" src="<?php echo(getBaseUrl().SCRIPTSDIR.'/'.getKernelInstance()->getPathFromRoot(__FILE__)); ?>js/dialog.js"></script>
+							<script type="text/javascript" src="<?php echo(getBaseUrl().SCRIPTSDIR.getKernelInstance()->getPathFromRoot(__FILE__)); ?>js/dialog.js"></script>
 							<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 							<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-							<link rel="stylesheet" type="text/css" href="<?php echo(getBaseUrl().SCRIPTSDIR.'/'.getKernelInstance()->getPathFromRoot(__FILE__)); ?>css/content.css" media="all" />
+							<link rel="stylesheet" type="text/css" href="<?php echo(getBaseUrl().SCRIPTSDIR.getKernelInstance()->getPathFromRoot(__FILE__)); ?>css/content.css" media="all" />
 						</head>
 						<body onload="if(typeof(updateMap) == 'function') updateMap();">
 							<form id="GoogleMaps" onsubmit="GoogleMapsDialog.insert();return false;" action="#">

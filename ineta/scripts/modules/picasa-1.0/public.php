@@ -11,7 +11,7 @@ if(!function_exists("getKernelInstance")){
 if(!adminEnabled()){
 	getKernelInstance()->actionAddFunction("_head", function(){
 		?>
-			<link rel="stylesheet" type="text/css" href="<?php echo(getBaseUrl().SCRIPTSDIR.'/'.getKernelInstance()->getPathFromRoot(__FILE__)); ?>css/gallery.css" media="all" />
+			<link rel="stylesheet" type="text/css" href="<?php echo(getBaseUrl().SCRIPTSDIR.getKernelInstance()->getPathFromRoot(__FILE__)); ?>css/gallery.css" media="all" />
 			<script type="text/javascript">
 				$(document).ready(function (event){
 					$("a.newWindow").attr('target','_blank');

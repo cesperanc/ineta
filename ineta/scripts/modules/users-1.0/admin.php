@@ -333,16 +333,16 @@ if(adminEnabled()):
 										<th>Perfil</th>
 									  </tr>
 								  </thead>
-								  <tbody>
-								  	<?php 
-										echo(adminUserList());
-									?>
-								  </tbody>
 								  <tfoot>
 									  	<tr>
 									  		<th colspan="3"><a href="./<?php echo adminURL();?>&amp;action=adminUsers&amp;operation=viewUser&amp;userId=-1" title="Clique para adicionar um novo utilizador">Adicionar utilizador</a></th>
 								  		</tr>
 								  </tfoot>
+								  <tbody>
+								  	<?php 
+										echo(adminUserList());
+									?>
+								  </tbody>
 							</table>
 						</div>
 					<?php

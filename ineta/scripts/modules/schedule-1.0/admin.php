@@ -363,7 +363,7 @@ if(adminEnabled()):
 										?>
 										<div id="errorPlace" class="ui-widget"></div>
 										<p>
-											<label for="tsInsercao">Inserção: <?php echo($scheduletsInsercao);?></label>
+											<label>Inserção: <?php echo($scheduletsInsercao);?></label>
 										</p>
 										<p>
 											<label for="Tipo_Actividade">Tipo actividade: </label>
@@ -392,7 +392,7 @@ if(adminEnabled()):
 											<br/>
 										</p>
 										<p>
-											<label for="nome">Titulo: </label>
+											<label for="Titulo">Titulo: </label>
 											<input id="Titulo" name="Titulo" readonly="readonly" value="<?php echo($scheduleTitulo);?>" />
 										</p>
 										<p>
@@ -515,16 +515,16 @@ if(adminEnabled()):
 										<th style="width: 100px;">Data</th>
 									  </tr>
 								  </thead>
-								  <tbody>
-								  	<?php 
-										echo(adminScheduleList());
-									?>
-								  </tbody>
 								  <tfoot>
 									  	<tr>
 									  		<th colspan="6"><a href="./<?php echo adminURL();?>&amp;action=adminSchedules&amp;operation=viewSchedule&amp;scheduleId=-1" title="Clique para adicionar um novo evento">Inserir evento</a></th>
 								  		</tr>
 								  </tfoot>
+								  <tbody>
+								  	<?php 
+										echo(adminScheduleList());
+									?>
+								  </tbody>
 							</table>
 						</div>
 					<?php

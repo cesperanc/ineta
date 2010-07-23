@@ -295,16 +295,16 @@ if(adminEnabled()):
 										<th>link</th>
 									  </tr>
 								  </thead>
-								  <tbody>
-								  	<?php 
-										echo(adminLinkList());
-									?>
-								  </tbody>
 								  <tfoot>
 									  	<tr>
 									  		<th colspan="2"><a href="./<?php echo adminURL();?>&amp;action=adminLinks&amp;operation=viewLink&amp;linkId=-1" title="Clique para adicionar um novo link">Adicionar link</a></th>
 								  		</tr>
 								  </tfoot>
+								  <tbody>
+								  	<?php 
+										echo(adminLinkList());
+									?>
+								  </tbody>
 							</table>
 						</div>
 					<?php
